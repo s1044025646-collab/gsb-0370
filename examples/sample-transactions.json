@@ -1,0 +1,9 @@
+[
+  { "seq": 1, "txnId": "A-B1", "securityId": "SEC-A", "side": "BUY",  "qty": 3, "price": 1000, "fee": 1 },
+  { "seq": 2, "txnId": "A-S1", "securityId": "SEC-A", "side": "SELL", "qty": 1, "price": 1000, "fee": 0 },
+  { "seq": 3, "txnId": "A-S2", "securityId": "SEC-A", "side": "SELL", "qty": 1, "price": 1000, "fee": 0 },
+  { "seq": 4, "txnId": "A-S3", "securityId": "SEC-A", "side": "SELL", "qty": 1, "price": 1000, "fee": 0 },
+  { "seq": 5, "txnId": "B-B1", "securityId": "SEC-B", "side": "BUY",  "qty": 2, "price": 500,  "fee": 0 },
+  { "seq": 6, "txnId": "B-B2", "securityId": "SEC-B", "side": "BUY",  "qty": 3, "price": 700,  "fee": 7 },
+  { "seq": 7, "txnId": "B-S1", "securityId": "SEC-B", "side": "SELL", "qty": 4, "price": 800,  "fee": 5 }
+]

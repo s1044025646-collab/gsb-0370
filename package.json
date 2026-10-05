@@ -1,0 +1,23 @@
+{
+  "name": "fifo-lots",
+  "version": "1.0.0",
+  "private": true,
+  "description": "单币种证券 FIFO 成本批次与部分卖出盈亏核算后端（TypeScript + Node.js + SQLite）",
+  "type": "commonjs",
+  "main": "dist/cli/index.js",
+  "bin": {
+    "fifo-lots": "dist/cli/index.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "tsc -p tsconfig.json && node --no-warnings=ExperimentalWarning --test \"dist/test/**/*.test.js\"",
+    "start": "node --no-warnings=ExperimentalWarning dist/api/server.js",
+    "demo": "node --no-warnings=ExperimentalWarning dist/cli/index.js demo",
+    "cli": "node --no-warnings=ExperimentalWarning dist/cli/index.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.0"
+  }
+}

@@ -1,0 +1,4 @@
+[
+  { "seq": 1, "txnId": "A-B1", "securityId": "SEC-A", "side": "BUY",  "qty": 3, "price": 1000, "fee": 1 },
+  { "seq": 2, "txnId": "A-S1", "securityId": "SEC-A", "side": "SELL", "qty": 2, "price": 1000, "fee": 0 }
+]
