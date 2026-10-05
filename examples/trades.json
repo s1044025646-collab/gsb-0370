@@ -1,0 +1,6 @@
+[
+  { "tradeId": "A-B1", "seq": 1, "security": "SEC-A", "side": "BUY",  "qty": 3, "price": 1000, "fee": 1 },
+  { "tradeId": "A-S1", "seq": 2, "security": "SEC-A", "side": "SELL", "qty": 1, "price": 1000, "fee": 0 },
+  { "tradeId": "A-S2", "seq": 3, "security": "SEC-A", "side": "SELL", "qty": 1, "price": 1000, "fee": 0 },
+  { "tradeId": "A-S3", "seq": 4, "security": "SEC-A", "side": "SELL", "qty": 1, "price": 1000, "fee": 0 }
+]
